@@ -31,6 +31,7 @@ import { DepartementComponent } from './dashbord/departement/departement.compone
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -58,6 +59,7 @@ import { DepartementComponent } from './dashbord/departement/departement.compone
     ApptComponent,
     DoctorSCHComponent,
     DepartementComponent,
+  
   
   ],
   imports: [
