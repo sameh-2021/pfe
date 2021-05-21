@@ -6,7 +6,8 @@ import {ContactComponent}from './contact/contact.component';
 import{ConnexionComponent}from './connexion/connexion.component';
 import{FormulaireComponent}from './formulaire/formulaire.component';
 import{DoctorsComponent} from './doctors/doctors.component';
-import{MedecinsComponent } from './medecins/medecins.component'
+import{MedecinsComponent } from './medecins/medecins.component';
+import{DashbordComponent} from './dashbord/dashbord.component';
 const routes: Routes = [
 
 
@@ -18,6 +19,8 @@ const routes: Routes = [
   {path:"formulaire",component:FormulaireComponent},
   {path:"doctors", component:DoctorsComponent},
   {path:"medecins",component:MedecinsComponent },
+  {path:"dashbord",component:DashbordComponent},
+  
   /*{path: '**', component: NOtFoundComponent}*/
 
 

@@ -20,6 +20,7 @@ import { DashbordComponent } from './dashbord/dashbord.component';
 import { DoctorsComponent } from './doctors/doctors.component';
 import { HeaderDashComponent } from './dashbord/header-dash/header-dash.component';
 import { FormsModule } from '@angular/forms';
+import { SidebarComponent } from './dashbord/sidebar/sidebar.component';
 
 
 @NgModule({
@@ -41,6 +42,7 @@ import { FormsModule } from '@angular/forms';
     DashbordComponent,
     DoctorsComponent,
     HeaderDashComponent,
+    SidebarComponent,
   
   ],
   imports: [
